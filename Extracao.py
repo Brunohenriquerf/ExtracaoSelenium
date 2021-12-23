@@ -34,7 +34,7 @@ for h in range(1,20):
     navegador.get("LINK DO SITE A SER EXPLORADO" + str(h) + "/PAGINA QUE INICIAREMOS A COLETA")
         # Passa por cada linha de anúncio
     for i in range(1,8):
-        # Passa por cada fileira de carro
+        # Passa por cada fileira
         for j in range(1,4):
             # Para suportar as exceções e erros
             try:
